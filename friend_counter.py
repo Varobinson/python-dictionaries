@@ -15,3 +15,10 @@ ramit = {
         }
     ]
 }
+
+def count_friends(dict):
+    friends = len(dict['friends'])
+    return friends
+
+ramit['friend count'] = count_friends(ramit)
+print(ramit['friend count'])
