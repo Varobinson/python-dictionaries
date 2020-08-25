@@ -1,5 +1,5 @@
 word = input('Pick a word any word!! \n>').lower()
-diction = {}
+
 def letter_histogram(inp):
     new_dict = {}
     for letters in inp:
